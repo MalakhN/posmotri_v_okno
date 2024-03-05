@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  gap: 30px;
+  width: 1140px;
+  height: 534px;
+}

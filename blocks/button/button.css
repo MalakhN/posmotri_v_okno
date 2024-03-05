@@ -1,0 +1,11 @@
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  display: block;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  padding: 6px 0;
+  font-family: "Fira Sans Condensed";
+  font-weight: 700;
+  font-size: 18px;
+}

@@ -1,0 +1,8 @@
+.content__details {
+  width: 399px;
+  height: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 26px;
+}

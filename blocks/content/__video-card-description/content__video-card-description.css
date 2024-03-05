@@ -1,0 +1,9 @@
+.content__video-card-description {
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16.2px;
+  width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

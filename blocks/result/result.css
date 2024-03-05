@@ -1,0 +1,5 @@
+.result {
+  width: 711px;
+  display: flex;
+  flex-direction: column;
+}
