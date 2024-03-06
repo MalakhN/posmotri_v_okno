@@ -1,0 +1,8 @@
+.search-form__pseudo-checkbox {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+}

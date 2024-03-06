@@ -1,0 +1,14 @@
+.search-form__textfield {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Fira Sans Condensed";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255,255,255,.7);
+  width: 225px;
+  padding: 0;
+  margin-top: 5px;
+}

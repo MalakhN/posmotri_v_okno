@@ -1,0 +1,6 @@
+.search-form__label {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
