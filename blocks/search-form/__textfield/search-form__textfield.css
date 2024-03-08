@@ -1,14 +1,45 @@
 .search-form__textfield {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   appearance: none;
+  outline: none;
   background-color: transparent;
+  color: #ffffff;
   border: none;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   font-family: "Fira Sans Condensed";
   font-weight: 400;
   font-size: 18px;
-  color: rgba(255,255,255,.7);
-  width: 225px;
-  padding: 0;
-  margin-top: 5px;
+  width: 221px;
+  padding-left: 0;
 }
+
+.search-form__textfield::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-form__textfield::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-form__textfield::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-form__textfield:active {
+  outline: none;
+  border: none;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+
+

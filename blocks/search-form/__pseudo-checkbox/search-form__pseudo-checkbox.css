@@ -1,4 +1,5 @@
 .search-form__pseudo-checkbox {
+  position: relative;
   display: inline-block;
   width: 19px;
   height: 19px;
@@ -6,3 +7,4 @@
   background-color: transparent;
   border: 1px solid #FFFFFF;
 }
+

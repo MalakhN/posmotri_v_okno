@@ -1,4 +1,5 @@
 .search-form {
+  min-height: 54px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

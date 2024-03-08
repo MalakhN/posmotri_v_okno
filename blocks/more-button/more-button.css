@@ -1,3 +1,8 @@
 .more-button {
   width: 100%;
 }
+
+.more-button:focus-visible {
+  width: 393px;
+  margin: 0 0 3px 3px;
+}

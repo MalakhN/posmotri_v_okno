@@ -2,10 +2,23 @@
   background-color: transparent;
   color: #ffffff;
   display: block;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   cursor: pointer;
   padding: 6px 0;
   font-family: "Fira Sans Condensed";
   font-weight: 700;
   font-size: 18px;
 }
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:focus-visible {
+  outline: 3px double #ffffff;
+}
+

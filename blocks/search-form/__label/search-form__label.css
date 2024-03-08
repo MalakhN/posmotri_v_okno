@@ -2,5 +2,24 @@
   width: fit-content;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+.search-form__label:has(.search-form__checkbox):hover {
   cursor: pointer;
 }
+
+.search-form__label:has(.search-form__textfield):hover {
+  cursor: text;
+}
+
+.search-form__label:hover .search-form__label-text{
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #ffffff;
+}
+

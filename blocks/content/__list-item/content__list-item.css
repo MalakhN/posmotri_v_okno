@@ -1,8 +1,25 @@
 .content__list-item {
   max-width: 399px;
+  padding: 3px;
   margin: 0 0 30px 0;
 }
 
 .content__list-item:nth-last-child(1) {
   margin: 0;
+}
+
+.content__list-item:active {
+  background-color: #545050;
+}
+
+.content__list-item:hover .content__card-link {
+  text-decoration: underline;
+}
+
+.content__list-item:focus {
+  outline: none;
+}
+
+.content__list-item:focus-visible {
+  outline: 1px solid #ffffff;
 }
