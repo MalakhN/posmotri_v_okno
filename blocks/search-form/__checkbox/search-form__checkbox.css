@@ -1,9 +1,6 @@
 .search-form__checkbox:checked + span::before {
   content: "";
-  position: absolute;
   background-color: #FFFFFF;
   width: 15px;
   height: 15px;
-  top: 1px;
-  left: 1px;
 }
